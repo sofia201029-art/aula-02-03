@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEGA PROMOÇÃO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id="logo">PROMOÇÃO DO ANO X</div>
+        <h1>GANHE UM CARRO NOVO!!!</h1>
+    </header>
+    <div id="banner">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfZXaKyGad_7lzECmOYYVYlKYuzI0TvXW44w&s">
+        <h2>Cadastre o codigo de barras e concorra!</h2>
+    </div>
+    <div id="principal">
+        <h2>Coloca seus dados ai</h2>
+        <form id="meuform">
+            <label>Nome:</label>
+            <input type="text" id="nome" placeholder="seu nome">
+            <label>Email:</label>
+            <input type="text" id="email" placeholder="email aqui">
+            <label>codigos de barras:</label>
+            <input type="text" id="codigo" placeholder="minimo 6 digitos">
+            <button type="submit">ENVIAR PRA CONCORRER</button>
+            <div id="mensagem_erro"></div>
+        </form>
+        <h1>se nao tever cadastrado, cadastre-se abaixo</h1>
+        <label>Nome:</label>
+            <input type="text" id="nome" placeholder="seu nome">
+            <label>Email:</label>
+            <input type="text" id="email" placeholder="email aqui">
+            <label>data de nascimento:</label>
+            <input type="text" id="data de nascimento" placeholder="data de nascimento">
+            <label>senha:</label>
+            <input type="text" id="senha" placeholder="coloque a senha">
+            <button onclick="confirmar()">finalizar</button>
+         </div>
+         </div>
+    <div id="modal_sucesso" style="display:none;">
+        <div id="dentro_modal">
+            <h2>Deu boa!!</h2>
+            <p>Boa sorte no sorteio👌😁</p>
+            <button onclick="fechar()">Fechar essa janela</button>
+        </div>
+    <footer>
+        <p>Regras: so vale ate final do ano, tem que ser codigo verdadeiro, etc etc. Premios legais.</p>
+        <p>Me segue: face insta </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
